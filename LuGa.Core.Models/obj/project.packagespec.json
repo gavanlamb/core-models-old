@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Workspace\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models.csproj",
+    "projectName": "LuGa.Core.Device.Models",
+    "projectPath": "C:\\Workspace\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models.csproj",
+    "outputPath": "C:\\Workspace\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "2.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
