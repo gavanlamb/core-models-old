@@ -669,9 +669,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Workspace\\LuGa.Core.Models\\LuGa.Core.Models\\LuGa.Core.Models.csproj",
       "projectName": "LuGa.Core.Models",
@@ -691,7 +688,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://luga.pkgs.visualstudio.com/_packaging/Models/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -710,7 +708,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

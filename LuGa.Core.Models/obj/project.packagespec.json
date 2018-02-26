@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Workspace\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models.csproj",
-    "projectName": "LuGa.Core.Device.Models",
-    "projectPath": "C:\\Workspace\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models.csproj",
-    "outputPath": "C:\\Workspace\\LuGa.Core.Device.Models\\LuGa.Core.Device.Models\\obj\\",
+    "projectUniqueName": "C:\\Workspace\\LuGa.Core.Models\\LuGa.Core.Models\\LuGa.Core.Models.csproj",
+    "projectName": "LuGa.Core.Models",
+    "projectPath": "C:\\Workspace\\LuGa.Core.Models\\LuGa.Core.Models\\LuGa.Core.Models.csproj",
+    "outputPath": "C:\\Workspace\\LuGa.Core.Models\\LuGa.Core.Models\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp2.0"
     ],
@@ -13,6 +16,11 @@
       "netcoreapp2.0": {
         "projectReferences": {}
       }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
     }
   },
   "frameworks": {
@@ -21,7 +29,8 @@
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "2.0"
+          "version": "[2.0.0, )",
+          "autoReferenced": true
         }
       },
       "imports": [
