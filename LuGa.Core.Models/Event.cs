@@ -11,6 +11,8 @@ namespace LuGa.Core.Device.Models
         public string Action{ get; set; }
         
         public string Zone{ get; set; }
+        
+        public string Value{ get; set; }
 
         public DateTime TimeStamp { get; set; }
     }
