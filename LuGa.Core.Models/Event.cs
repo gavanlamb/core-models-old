@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LuGa.Core.Device.Models
+namespace LuGa.Core.Models
 {
     public class Event
     {
